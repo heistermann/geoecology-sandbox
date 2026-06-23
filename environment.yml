@@ -22,3 +22,5 @@ dependencies:
   - statsmodels
   - openpyxl
   - xlrd
+  - xarray
+  - ipympl
