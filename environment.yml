@@ -1,0 +1,24 @@
+name: geoecology
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - ipywidgets
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - geopandas
+  - shapely
+  - pyproj
+  - fiona
+  - rasterio
+  - rasterstats
+  - folium
+  - scikit-learn
+  - statsmodels
+  - openpyxl
+  - xlrd
