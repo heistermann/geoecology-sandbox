@@ -1,35 +1,30 @@
-# geoecology-sandbox
-Sandbox for teaching Python and Geoecology.
+# Geoecology Sandbox - ein Experimentierfeld für Python in der Geoökologie
+
+![alt text](/img/surface-runoff.jpg "Surface runoff on agricultural field")
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/heistermann/geoecology-sandbox/HEAD)
 
 ## Quick start
 
-Click the **Binder** badge above to launch an interactive JupyterLab session in the cloud — no local installation required.
+Klicke auf das obige **Binder**-Badge. Damit startet eine interaktive JupyterLab-Session in der Cloud — keine weitere lokale Softwareinstallation erforderlich. **Achtung:** Es kann mehrere Minuten dauern, bis die die Binder-Umgebung startet (sogar bis zu 10 Minuten).
 
-## Repository layout
+## Inhalte
 
-```
-environment.yml          # Conda environment (used by Binder)
-notebooks/
-  01_introduction.ipynb  # Introductory notebook: data exploration, plotting, mapping
-data/
-  species_observations.csv  # Sample tree-species observation dataset
-```
+Aktuell enthält das Repository beispielhafte Notebooks zu den Themen Klimatologie, Hydrologie und Umweltsystemeanalyse. Es wird jedoch kontinuierlich erweitert. Eine systematische Einführung in Python ist *nicht* Gegenstand des Repositories.
 
-## Running locally
+## Wie kann ich die Notebooks bei mir lokal laufen lassen
 
-1. Clone the repository and change into it:
+1. Repository klonen (oder runterladen) und ins Verzeichnis `geoecology-sandbox` wechseln:
    ```bash
    git clone https://github.com/heistermann/geoecology-sandbox.git
    cd geoecology-sandbox
    ```
-2. Create and activate the conda environment:
+2. conda environment erstellen und aktivieren:
    ```bash
    conda env create -f environment.yml
    conda activate geoecology
    ```
-3. Start JupyterLab:
+3. JupyterLab starten:
    ```bash
    jupyter lab
    ```
