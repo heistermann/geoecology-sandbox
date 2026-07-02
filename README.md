@@ -6,7 +6,7 @@
 
 ## Quick start
 
-Klicke auf das obige **Binder**-Badge. Damit startet eine interaktive JupyterLab-Session in der Cloud — keine weitere lokale Softwareinstallation erforderlich. **Achtung:** Es kann mehrere Minuten dauern, bis die die Binder-Umgebung startet (sogar bis zu 10 Minuten).
+Klicke auf das obige **launch binder**-Badge. Damit startet eine interaktive JupyterLab-Session in der Cloud — keine weitere lokale Softwareinstallation erforderlich. **Achtung:** Es kann mehrere Minuten dauern, bis die die Binder-Umgebung startet (sogar bis zu 10 Minuten).
 
 ## Inhalte
 
