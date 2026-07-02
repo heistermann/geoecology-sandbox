@@ -1,6 +1,6 @@
 name: geoecology
 channels:
-  - conda-forge::mamba
+  - conda-forge
 
 dependencies:
   - python=3.11
