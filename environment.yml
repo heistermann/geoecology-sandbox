@@ -1,25 +1,37 @@
 name: geoecology
 channels:
-  - conda-forge
-  - defaults
+  - conda-forge::mamba
+
 dependencies:
   - python=3.11
+
+  # Core notebook environment
   - jupyterlab
   - ipywidgets
+  - ipympl
+
+  # Scientific stack
   - numpy
   - pandas
   - scipy
+  - scikit-learn
+  - statsmodels
+
+  # Plotting (IMPORTANT: pinned for stability)
   - matplotlib=3.8.*
   - seaborn
+
+  # Geospatial core stack (kept compatible as a unit)
   - geopandas
   - shapely
   - pyproj
   - fiona
   - rasterio
   - rasterstats
+
+  # Mapping
   - folium
-  - scikit-learn
-  - statsmodels
+
+  # File I/O
   - openpyxl
   - xlrd
-  - ipympl
