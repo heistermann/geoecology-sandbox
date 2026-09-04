@@ -1,0 +1,6 @@
+"TOA5","CR1000_Gülpe_CELL2015","CR1000","E10832","CR1000.Std.29","CPU:guelpe_juli26_upload_SDI12auf3.CR1","45240","Logger"
+"TIMESTAMP","RECORD","BattV_Avg","PTemp_C_Avg"
+"TS","RN","Volts","Deg C"
+"","","Avg","Avg"
+"2026-08-30 00:00:00",45,13.63,21.78
+"2026-08-31 00:00:00",46,13.54,23.81
